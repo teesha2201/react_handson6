@@ -39,7 +39,7 @@ function AddnewStudent()
                 <input type="text" name="course"  id="course" placeholder="Enter Course" onChange={Changehandler} className='courseadd'></input>
                 <br></br>
                 <label htmlFor='batch' className='batch'>Batch</label>
-                <input type="text" name="batch"  id="batch" placeholder="Enter Batch" onChange={Changehandler} className='courseadd'></input>
+                <input type="text" name="batch"  id="batch" placeholder="Enter Batch" onChange={Changehandler} className='batchadd'></input>
                 <br></br>
                 <button onClick={UpdateList} className='updatelist'>Submit</button>
                 
